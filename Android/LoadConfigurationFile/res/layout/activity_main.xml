@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	tools:context="com.john.loadconfigurationfile.MainActivity" >
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="250sp"
+		android:layout_height="40sp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="170dp"
+		android:text="Select File:"
+		android:textColor="#0000FF"
+		android:textSize="30sp" />
+
+	<LinearLayout
+		android:id="@+id/linearLayoutSpinner"
+		android:layout_width="250sp"
+		android:layout_height="40sp"
+		android:layout_alignLeft="@+id/textView1"
+		android:layout_below="@+id/textView1"
+		android:layout_marginTop="20dp"
+		android:layout_centerVertical="true"
+		android:background="@drawable/border"
+		android:orientation="horizontal" >
+
+		<Spinner
+			android:id="@+id/spinnerFilesConfiguration"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/buttonLoadSettings"
+		android:layout_width="250sp"
+		android:layout_height="40sp"
+		android:layout_alignLeft="@+id/linearLayoutSpinner"
+		android:layout_below="@+id/linearLayoutSpinner"
+		android:layout_marginTop="60dp"
+		android:background="@drawable/blue_button"
+		android:text="Load"
+		android:textColor="#FFFFFF" />
+
+</RelativeLayout>

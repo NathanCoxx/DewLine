@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayoutMainLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/screen_background"
+	android:orientation="vertical" >
+
+<!-- GAUGES  -->
+	<RelativeLayout
+		android:id="@+id/relativeLayoutGauges"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+
+<!-- LEFT COLUMN -->
+		<LinearLayout
+			android:id="@+id/linearLayoutLeftColumn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginLeft="10dp" >
+
+<!-- FIRST LINE -->
+			<RelativeLayout
+				android:id="@+id/relativeLayoutFirstRow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="18dp" >
+
+				<LinearLayout
+					android:id="@+id/linearLayoutFirstRowFirstGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutFirstRowSecondGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutFirstRowThirdGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutFirstRowFourthGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutFirstRowFifthGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+			</RelativeLayout>
+	<!-- END FIRST LINE -->
+
+<!-- SECOND LINE -->
+			<RelativeLayout
+				android:id="@+id/relativeLayoutSecondRow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="18dp" >
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondRowFirstGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondRowSecondGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondRowThirdGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondRowFourthGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondRowFifthGauge"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:background="@drawable/gauge_background"
+					android:orientation="vertical" >
+				</LinearLayout>
+
+			</RelativeLayout>
+<!-- END SECOND LINE -->
+
+<!-- THIRD LINE -->
+			<LinearLayout
+				android:id="@+id/linearLayoutThirdRow"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="18dp"
+				android:orientation="horizontal" >
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowFirstG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowFirstGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFirstGaugeDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+							<TextView
+								android:id="@+id/textViewThirdRowFirstGaugeDescription"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="center|bottom"
+								android:text="Waste\n1"
+								android:textSize="15px" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFirstGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowSecondG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowSecondGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowSecondGaugeDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+							<TextView
+								android:id="@+id/textViewThirdRowSecondGaugeDescription"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="center|bottom"
+								android:text="Fuel\n1"
+								android:textSize="15px" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowSecondGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowThirdG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowThirdGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowThirdGaugeDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+							<TextView
+								android:id="@+id/textViewThirdRowThirdGaugeDescription"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="center|bottom"
+								android:text="House\nVolts"
+								android:textSize="15px" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowThirdGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowFourthG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowFourthGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFourthGaugeDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+							<TextView
+								android:id="@+id/textViewThirdRowFourthGaugeDescription"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="center|bottom"
+								android:text="Engine\nVolts"
+								android:textSize="14px" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFourthGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowFifthG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowFifthGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFifthGaugeDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+							<TextView
+								android:id="@+id/textViewThirdRowFifthGaugeDescription"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="center|bottom"
+								android:text="Amps"
+								android:textSize="15px" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowFifthGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowSixthG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowSixthGauge"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/gauge_vertical_background"
+						android:orientation="vertical" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowSixthGaugeIconDescription"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="vertical" >
+
+							<LinearLayout
+								android:id="@+id/linearLayoutThirdRowSixthGaugeIcon"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal" >
+
+								<ImageView
+									android:id="@+id/imageViewThirdRowSixthGaugeIcon"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="1dp"
+									android:layout_marginBottom="1dp"
+									android:scaleType="fitCenter"
+									android:src="@drawable/crankcase_pressure_background" />
+
+							</LinearLayout>
+
+							<LinearLayout
+								android:id="@+id/linearLayoutThirdRowSixthGaugeDescription"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_margin="0dp"
+								android:padding="0dp"
+								android:orientation="horizontal" >
+								<TextView
+									android:id="@+id/textViewThirdRowSixthGaugeDescription"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent"
+									android:gravity="center_horizontal|top"
+									android:text="In H20"
+									android:textSize="11px" />
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowSixthGaugeGauge"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutThirdRowLEDs"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:background="@drawable/gauge_background_fuel_mgt_panel"
+					android:orientation="vertical" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowLEDsItem1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:orientation="horizontal" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem1Description"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<TextView
+								android:id="@+id/textViewThirdRowLEDsItem1Description"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="right|center_vertical"
+								android:layout_marginRight="10dp"
+								android:text="Low coolant"
+								android:textSize="17px" />
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem1Image"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<ImageView
+								android:id="@+id/imageViewThirdRowLEDsItem1Image"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="3dp"
+								android:layout_marginBottom="3dp"
+								android:scaleType="fitStart"
+ 								android:src="@drawable/circle_blue_background" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowLEDsItem2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem2Description"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<TextView
+								android:id="@+id/textViewThirdRowLEDsItem2Description"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="right|center_vertical"
+								android:layout_marginRight="10dp"
+								android:text="Water in Fuel"
+								android:textSize="17px" />
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem2Image"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<ImageView
+								android:id="@+id/imageViewThirdRowLEDsItem2Image"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="3dp"
+								android:layout_marginBottom="3dp"
+								android:scaleType="fitStart"
+								android:src="@drawable/circle_blue_background" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowLEDsItem3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem3Description"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<TextView
+								android:id="@+id/textViewThirdRowLEDsItem3Description"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="right|center_vertical"
+								android:layout_marginRight="10dp"
+								android:text="High Bilge Level"
+								android:textSize="17px" />
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem3Image"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<ImageView
+								android:id="@+id/imageViewThirdRowLEDsItem3Image"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="3dp"
+								android:layout_marginBottom="3dp"
+								android:scaleType="fitStart"
+ 								android:src="@drawable/circle_blue_background" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowLEDsItem4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem4Description"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<TextView
+								android:id="@+id/textViewThirdRowLEDsItem4Description"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:gravity="right|center_vertical"
+								android:layout_marginRight="10dp"
+								android:text="Auto Shutdown"
+								android:textSize="17px" />
+						</LinearLayout>
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem4Image"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:orientation="horizontal" >
+
+							<ImageView
+								android:id="@+id/imageViewThirdRowLEDsItem4Image"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="3dp"
+								android:layout_marginBottom="3dp"
+								android:scaleType="fitStart"
+								android:src="@drawable/circle_blue_background" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutThirdRowLEDsItem5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center_horizontal"
+						android:orientation="horizontal" >
+
+						<LinearLayout
+							android:id="@+id/linearLayoutThirdRowLEDsItem5Inside"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="@drawable/border"
+							android:orientation="horizontal" >
+
+							<ScrollView
+								android:id="@+id/scrollViewThirdRowLEDsItem5Inside"
+								android:layout_width="fill_parent"
+								android:layout_height="fill_parent"
+								android:padding="1dp"
+								android:scrollbars="vertical"
+								android:fillViewport="true">
+								<TextView
+									android:id="@+id/textViewThirdRowLEDsItem5Memo"
+									android:layout_width="fill_parent"
+									android:layout_height="fill_parent"
+									android:layout_marginLeft="5dp"
+									android:text=""
+									android:background="#FFFFFF"
+									android:textColor="#000000"
+									android:textSize="12px" />
+
+							</ScrollView>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+<!-- END THIRD LINE -->
+
+ 	  	</LinearLayout>
+<!-- END LEFT COLUMN -->
+
+<!-- RIGHT COLUMN -->
+		<LinearLayout
+			android:id="@+id/linearLayoutRightColumn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#00000000"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:id="@+id/linearLayoutTitleScreen"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/textViewTitleScreen"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:gravity="top|right"
+					android:layout_marginTop="5dp"
+					android:layout_marginRight="10dp"
+					android:text="Night Fury"
+					android:textSize="30px"
+					android:textColor="#FFFFFF"
+					android:textStyle="italic" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/linearLayoutFirstSecondRowBigGauge"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/gauge_background"
+				android:orientation="vertical" >
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/linearLayoutSecondColumnThirdRow"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_marginTop="70dp"
+				android:layout_marginRight="5dp"
+				android:background="@drawable/gauge_background_fuel_mgt_panel"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="2dp"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem1Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem1Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:text="GPS Speed:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem1Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem1Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem1Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem1Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Kn"
+							android:textSize="14px" />
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem2Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem2Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginRight="1dp"
+							android:text="Fuel Remaining:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem2Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem2Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem2Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem2Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Gal"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem3Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem3Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:text="DTE:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem3Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem3Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem3Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem3Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Mi"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem4Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem4Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:text="Efficiency:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem4Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem4Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem4Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem4Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Gal/Mi"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem5Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem5Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="-5dp"
+							android:text="Port Eng. Burn:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem5Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem5Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem5Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem5Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="GPH"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem6Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem6Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:text="Trip Distance:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem6Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem6Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem6Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem6Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Mi"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayoutSecondColumnThirdRowItem7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="2dp"
+					android:orientation="horizontal" >
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem7Description"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem7Description"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="-5dp"
+							android:text="Tr. 1 Fuel Used:"
+							android:textSize="17px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem7Value"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSSecondColumnThirdRowItem7Value"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical|right"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:paddingRight="8dp"
+							android:text="0.0"
+							android:background="@drawable/border"
+							android:textSize="18px" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/linearLayoutSecondColumnThirdRowItem7Units"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" >
+
+						<TextView
+							android:id="@+id/textViewSecondColumnThirdRowItem7Units"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:gravity="center_vertical"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:layout_marginBottom="3dp"
+							android:text="Gal"
+							android:textSize="14px" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+<!-- END RIGHT COLUMN -->
+
+	</RelativeLayout>
+<!-- END GAUGES -->
+
+<!-- BUTTONS -->
+	<LinearLayout
+		android:id="@+id/linearLayoutButtons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="horizontal" >
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButtonSetup"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+		    <Button
+				android:id="@+id/buttonSetup"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"
+				android:background="@drawable/button_blue"
+				android:text="Setup"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButtonHistory"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+		    <Button
+				android:id="@+id/buttonHistory"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/button_blue"
+				android:text="History"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButtonFuel"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+			<Button
+				android:id="@+id/buttonFuel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/button_blue"
+				android:text="Fuel"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButton4"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+		    <Button
+				android:id="@+id/button4"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/button_blue"
+				android:text="Quiet"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButton5"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+		    <Button
+				android:id="@+id/button5"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/button_blue"
+				android:text="Backlight"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayoutButton6"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+			<Button
+				android:id="@+id/button6"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/button_blue"
+				android:text="Power"
+				android:textColor="#FFFFFF"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+	</LinearLayout>
+<!-- END BUTTONS -->
+
+</LinearLayout>
